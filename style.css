@@ -1,0 +1,24 @@
+body {
+  max-width: 50em;
+  margin: auto;
+  padding: 2em;
+  font-size: 18px;
+  font-family: 'Hind', sans-serif;
+  display:block;
+  background:#222;
+  color:#c0c0c0;
+  font-weight:300;
+  letter-spacing:.04em;
+}
+img {
+  width: 100%;
+}
+
+@media (min-width: 50em) {
+  article {
+    max-width: 80%;
+  }
+  img {
+    width: 120%;
+  }
+}
