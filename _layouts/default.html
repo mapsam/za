@@ -6,9 +6,72 @@
   <title>ZA</title>
   <meta charset="UTF-8">
   <link href='http://fonts.googleapis.com/css?family=Hind:600,300,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Noto+Serif:400,700' rel='stylesheet' type='text/css'>
   <link href="{{ site.baseurl }}/style.css" rel="stylesheet">
 </head>
-<body>
+<body>  
+  {% include nav.html %}
   {{ content }}
+
+  <script>
+  var startDate, endDate, totalTime, nav, popup, popupArrow;
+  window.onload = function() {
+    startDate = new Date('01/10/2010').getTime();
+    endDate = new Date('07/10/2010').getTime();
+    totalTime = endDate - startDate;
+    console.log(posts, startDate, endDate);
+    nav = document.getElementById('nav');
+    popup = document.getElementById('popup');
+    popupArrow = document.getElementById('popupArrow');
+    buildMonths();
+
+    for (var p = 0; p < posts.length; p++) {
+      (function(po) {
+        var node = postNode(po);
+        nav.appendChild(node);
+      })(posts[p]);
+    }
+  };
+
+  function postNode(post) {
+    var node = document.createElement('a');
+    node.className = 'post_node';
+    node.href = post.url;
+    var percentage = per(new Date(post.date).getTime() - startDate, totalTime)
+    node.setAttribute('data-left', percentage);
+    node.style.left = percentage + '%';
+    node.onmouseover = function(e) {
+      console.log(percentage);
+      popup.style.display = 'inline-block';
+      popupArrow.style.display = 'inline-block';
+      popup.innerHTML = post.title;
+      var d = new Date(post.date);
+      var niceDate = (d.getMonth() + 1) + '/' + d.getDate() + '/' + d.getFullYear();
+      popup.innerHTML += '<br><span>' + niceDate + '</span>';
+      popup.style.left = (percentage-0.5) + '%';
+      popupArrow.style.left = percentage + '%';
+    };
+    node.onmouseout = function() {
+      popup.innerHTML = '';
+      popup.style.display = 'none';
+      popupArrow.style.display = 'none';
+    }
+    return node;
+  }
+
+  function buildMonths() {
+    for (var m = 1; m < 8; m++) {
+      var marker = document.createElement('div');
+      marker.className = 'post_date';
+      var percentage = per(new Date(m + '/01/2010').getTime() - startDate, totalTime);
+      marker.style.left = percentage + '%';
+      nav.appendChild(marker);
+    }
+  }
+
+  function per(partial, total) {
+    return ((partial / total) * 100);
+  }
+  </script>
 </body>
 </html>

@@ -1,10 +1,8 @@
 body {
-  max-width: 50em;
-  margin: auto;
-  padding: 2em;
+  padding: 0;
+  margin: 0;
   font-size: 18px;
   font-family: 'Hind', sans-serif;
-  display:block;
   background:#222;
   color:#c0c0c0;
   font-weight:300;
@@ -13,12 +11,84 @@ body {
 img {
   width: 100%;
 }
+p {
+  line-height: 1.8em;
+  font-size: 0.9em;
+  font-family: 'Noto Serif', serif;
+  margin-bottom: 1.8em;
+}
 
-@media (min-width: 50em) {
-  article {
-    max-width: 80%;
-  }
-  img {
-    width: 120%;
-  }
+@media (min-width: 50em) {}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top:0;
+  background: #1b1b1b;
+}
+#nav {
+  position: relative;
+  padding: 1em 0;
+}
+#popup {
+  position: fixed;
+  top: 40px;
+  background: #fff;
+  color: #555;
+  padding: 6px 7px 4px;
+  line-height: 1em;
+  font-size: 0.8em;
+  font-weight: 900;
+  display: none;
+}
+#popupArrow {
+  position: fixed;
+  content: "";
+  border-bottom: 6px solid #fff;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  top: 34px;
+  display: none;
+}
+#popup span {
+  font-weight: 100;
+  line-height: 13px;
+}
+.post_node {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-top: -4px;
+  background: #fff;
+}
+.post_node:hover {
+  background: steelblue;
+}
+.post_date {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  top: 0;
+  background: #555;
+}
+
+section {
+  display: block;
+  width: 50em;
+  margin: auto;
+}
+header {
+  background-color: #1b1b1b;
+  padding: 4em 0 3em;
+}
+article {
+  float: left;
+  width: 40em;
 }

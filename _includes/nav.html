@@ -1,0 +1,18 @@
+<nav>
+  <div id="nav"></div>
+</nav>
+
+<div id="popupArrow"></div>
+<div id="popup"></div>
+
+<script>
+window.posts = [
+  {% for post in site.posts reversed %}
+  {
+    title: "{{ post.title }}",
+    date: "{{ post.date }}",
+    url: "{{ post.url }}"
+  },
+  {% endfor %}
+];
+</script>
