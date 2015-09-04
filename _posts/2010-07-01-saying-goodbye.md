@@ -1,6 +1,7 @@
 ---
 title: Saying Goodbye
 layout: post
+img: https://4.bp.blogspot.com/_LdRmP430Hc0/TCjjwnSTZbI/AAAAAAAAAVk/khUfQDatLok/s800/IMG_7966.JPG
 ---
 
 Well, the day has come for me to bid farewell to Cape Town. My room is completely bare and all of my stuff is entirely packed into one suitcase and a backpack, crazy! I don't think they will be overweight either. There's not much for me to say since I haven't really done much other than watch world cup games and enjoy being in Observatory. 

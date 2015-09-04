@@ -1,6 +1,7 @@
 ---
 title: Sunsets & Hikes
 layout: post
+img: http://4.bp.blogspot.com/_LdRmP430Hc0/S47HmmGBsZI/AAAAAAAAAJE/yt8CVeBaGXk/s680/IMG_5015.JPG
 ---
 
 Howzit foks? 

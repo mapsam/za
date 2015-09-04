@@ -1,6 +1,7 @@
 ---
 title: Be Back Soon
 layout: post
+img: http://www.myalberton.co.za/wp-content/uploads/2015/06/SAs-Image-Takes-A-Knock.jpg
 ---
 
 Just a quick hello before the long weekend. Spring break finished off and school started back up again this week. We have a nice 4 day weekend to get ourselves back into the swing of things (the swing of things = more vacation instead of school). Taryn and I spent a lot of time watching movies and went surfing on Friday last week. It was extremely relaxing! 

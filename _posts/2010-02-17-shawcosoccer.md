@@ -1,6 +1,7 @@
 ---
 title: Shawco & Soccer
 layout: post
+img: https://4.bp.blogspot.com/_LdRmP430Hc0/TCjjwnSTZbI/AAAAAAAAAVk/khUfQDatLok/s800/IMG_7966.JPG
 ---
 
 The past week or so has seen Cape Town turn into more than just a vacation spot for myself. It has been really nice to have a routine with classes and keep the weekends for spending money on cabs to get in or out of the city. My classes have been fairly interesting thus far! Almost everything taught so far I have learned before in Madison, but once we get into more case study situations with my history classes, they will be much more exciting! We actually had our first case study in my African genocide class today and I must say it was not the happiest of lectures I have been too, but nonetheless very interesting. 

@@ -28,15 +28,25 @@ h1 {
 
 nav {
   position: fixed;
+  z-index: 10;
   width: 100%;
   top:0;
   background: #1b1b1b;
 }
+#home {
+  position: absolute;
+  padding: 9px;
+  background: #3D9970;
+  color: #fff;
+  vertical-align: middle;
+}
 #nav {
   position: relative;
   padding: 1em 0;
+  margin-left: 20px;
 }
 #popup {
+  z-index: 12;
   position: fixed;
   top: 40px;
   background: #fff;
@@ -47,29 +57,21 @@ nav {
   font-weight: 900;
   display: none;
 }
-#popupArrow {
-  position: fixed;
-  content: "";
-  border-bottom: 6px solid #fff;
-  border-left: 6px solid transparent;
-  border-right: 6px solid transparent;
-  top: 34px;
-  display: none;
-}
 #popup span {
   font-weight: 100;
   line-height: 13px;
 }
 .post_node {
   position: absolute;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  margin-top: -4px;
+  width: 4px;
+  height: 100%;
+  /*border-radius: 50%;*/
+  margin-top: -18px;
   background: #fff;
 }
+.post_node.active,
 .post_node:hover {
-  background: steelblue;
+  background: #2ECC40;
 }
 .post_date {
   position: absolute;
@@ -91,4 +93,70 @@ header {
 article {
   float: left;
   width: 40em;
+}
+
+.index {
+  margin: 3em auto;
+}
+.index h4,
+.index p {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+.index p {
+  color: #c0c0c0;
+}
+.index_post {
+  display: block;
+  background: #1b1b1b;
+  margin-bottom: 1em;
+}
+.index_post_img {
+  float: left;
+  width: 50%;
+  opacity: 0.7;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover;
+  height: 100px;
+  background-position: center center;
+}
+.index_post_text {
+  float: left;
+  width: 50%;
+  box-sizing:border-box;  
+  -moz-box-sizing:border-box; 
+  -webkit-box-sizing:border-box;
+  padding: 1em;
+}
+.index_post:hover {
+  background: #111;
+}
+.index_post:hover .index_post_left {
+  opacity: 1;
+}
+
+footer {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 2em 0;
+}
+footer a {
+  color: #555;
+  text-decoration: none;
+}
+
+.cf:before,
+.cf:after {
+    content:" ";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+.cf {
+    *zoom:1;
 }

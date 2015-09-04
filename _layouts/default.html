@@ -5,13 +5,17 @@
 <head>
   <title>ZA</title>
   <meta charset="UTF-8">
-  <link href='http://fonts.googleapis.com/css?family=Hind:600,300,400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Noto+Serif:400,700' rel='stylesheet' type='text/css'>
   <link href="{{ site.baseurl }}/style.css" rel="stylesheet">
 </head>
 <body>  
   {% include nav.html %}
   {{ content }}
+
+  <footer>
+    <a href="http://mapsam.com">mapsam.com</a>
+  </footer>
 
   <script>
   var startDate, endDate, totalTime, nav, popup, popupArrow;
@@ -40,21 +44,21 @@
     var percentage = per(new Date(post.date).getTime() - startDate, totalTime)
     node.setAttribute('data-left', percentage);
     node.style.left = percentage + '%';
+    if(post.active) {
+      node.className += ' active';
+    }
     node.onmouseover = function(e) {
       console.log(percentage);
       popup.style.display = 'inline-block';
-      popupArrow.style.display = 'inline-block';
       popup.innerHTML = post.title;
       var d = new Date(post.date);
       var niceDate = (d.getMonth() + 1) + '/' + d.getDate() + '/' + d.getFullYear();
       popup.innerHTML += '<br><span>' + niceDate + '</span>';
       popup.style.left = (percentage-0.5) + '%';
-      popupArrow.style.left = percentage + '%';
     };
     node.onmouseout = function() {
       popup.innerHTML = '';
       popup.style.display = 'none';
-      popupArrow.style.display = 'none';
     }
     return node;
   }

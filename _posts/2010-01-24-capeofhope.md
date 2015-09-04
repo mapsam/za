@@ -1,6 +1,7 @@
 ---
 title: The Cape of Good Hope tour
 layout: post
+img: http://4.bp.blogspot.com/_LdRmP430Hc0/S1yMsREsaCI/AAAAAAAAAEE/ah7gf7935rU/s680/DSC00192.JPG
 ---
 
 Yesterday we moved into our house on 197 Lower Main Road in the Observatory neighborhood. There are 17 students from the US living here, so you can imagine it is quite relaxing. I am in room number 3, which I thought would be near the front of the building where there is a lot of foot traffic, but it happens to be in the back of the building on the third floor. Two walls have windows with an amazing view of Table Mountain. It lets in a lot of sun and gets really warm in the early evening, but once the sun goes down the room cools down a bit. The Observatory neighborhood is quite “happening” with many bars, shops, and restaurants only about two blocks away from our house. Lower Main road seems to be the big nightlife area in the area so you can imagine the amount of people walking around the entrance of our house.

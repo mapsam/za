@@ -1,6 +1,7 @@
 ---
 title: Normal Life
 layout: post
+img: http://www.myalberton.co.za/wp-content/uploads/2015/06/SAs-Image-Takes-A-Knock.jpg
 ---
 
 Sorry for the delay in updating folks! Life in Cape Town as of late has been extremely relaxing. Living as a normal resident here instead of being a tourist has been really refreshing. I know the streets that I am walking and can understand how the community goes about its daily life. 

@@ -1,6 +1,7 @@
 ---
 title: Soccer & Birthdays
 layout: post
+img: https://1.bp.blogspot.com/_LdRmP430Hc0/S8YMS5LtR4I/AAAAAAAAANU/aaEnfdDE0TY/s640/IMG_5785.JPG
 ---
 
 This week has been pretty hectic with papers being due and getting back exams and other papers. I ended up getting a 0%, yes Z-E-R-O, on my history paper for not putting page numbers on my footnotes. Plagiarism is a huge problem here I guess and every paper requires a plagiarism declaration stating that you have not plagiarized. I have the chance to resubmit the paper on Friday for a re-grade, so hopefully I can get a better grade than zero. Ugh. Sometimes I suppose I miss Madison. Last night was Larken's birthday so there was a big guacamole party here with a bunch of Mexican food! It was a lot of fun but I don't think my stomach likes me too much anymore. I was a little full...

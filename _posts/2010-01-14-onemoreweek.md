@@ -1,6 +1,7 @@
 ---
 title: One more week
 layout: post
+img: http://www.myalberton.co.za/wp-content/uploads/2015/06/SAs-Image-Takes-A-Knock.jpg
 ---
 
 The countdown began yesterday (Wednesday) for my last week of being in the United States. I cannot believe that my flight is next week! Over break, I wish I could say I have been working on getting ready for the trip by packing my bags and getting all of my papers together.. but I have not really been doing that too much. Just spending time with family and friends before I don't see them for so long. 

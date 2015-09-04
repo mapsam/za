@@ -1,6 +1,7 @@
 ---
-title: It\'s the little things
+title: It's the little things
 layout: post
+img: http://4.bp.blogspot.com/_LdRmP430Hc0/S3VzU__xR1I/AAAAAAAAAH8/Tr5iD0O5rvw/s680/IMG_4471.JPG
 ---
 
 Hi folks. Just finished our first week of class here! I have a final class schedule thankfully; it only took two weeks… All of the classes are pretty interesting so far. I enjoy having professors who are from all over the world with their own unique accents. The accents are actually helping me comprehend the information a lot more because I have to work harder to understand them, thus making me think about what they said. I have to say though, I do enjoy the system Madison is on and how organized it actually is. 

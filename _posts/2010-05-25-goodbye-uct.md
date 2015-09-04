@@ -1,6 +1,7 @@
 ---
 title: Goodbye UCT
 layout: post
+img: http://www.surgsoc.org/wp-content/themes/bluewood/bluewood/images/slide4.jpg
 ---
 
 All is finished at the University of Cape Town! I had my last exam yesterday for my South African History class and two last week, which all went well (I think ☺). It really still hasn’t hit me yet that I have an entire month and a few days to travel and enjoy South Africa as I enjoyed it the first month here. Since school was pretty time consuming, I wasn’t able to do as much as I had originally when I got here, but now I have all the time in the world. I assume that the time is going to fly by though, so I want to take advantage of every last minute!

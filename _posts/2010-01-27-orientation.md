@@ -1,6 +1,7 @@
 ---
 title: Orientation
 layout: post
+img: http://3.bp.blogspot.com/_LdRmP430Hc0/S2BSjADgeSI/AAAAAAAAAFU/-J3zpRYcicQ/s680/DSC04072.JPG
 ---
 
 Orientation. The real orientation. Started our usual informational lectures on Monday with some safety information for staying smart around the neighborhood and the university. Also had an HIV/AIDS session. I wasn’t too excited for the AIDS portion because I expected the usual lecture series loaded with statistics and preventative tips. It actually was given by a campus group called Aces and turned out to be quite entertaining. As you can imagine, talking about sex and coming up with every type of sexually oriented fluid can be extremely hilarious in a large lecture hall. They made it a lot of fun with their games and visual demonstrations for prevention…

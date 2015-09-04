@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<header>
+  <section>
+    <h1>South Africa</h1>
+    <p>For 6 months I lived in Cape Town, South Africa studying at the University of Cape Town. From January to July I met incredibly interesting people, explored the southern region of the continent of Africa, and embraced the World Cup as it enveloped the nation for a month. Below is my blog, originally posted here, and now permanently kept as a reminder of the adventures that await us around every corner.</p>
+  </section>
+</header>
+<section class="index">
+{% for post in site.posts reversed %}
+  <a href="{{ post.url }}" class="index_post cf">
+      <div class="index_post_text">
+        <h4>{{ post.title }}</h4>
+        <p>{{ post.date | date: '%B %d, %Y' }}</p>
+      </div>
+      <div class="index_post_img" style="background-image: url({{ post.img }});"></div>
+    </a>
+  </a>
+{% endfor %}
+</section>

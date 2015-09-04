@@ -1,6 +1,7 @@
 ---
 title: Green Point
 layout: post
+img: http://2.bp.blogspot.com/_LdRmP430Hc0/S5zjXQdGSUI/AAAAAAAAAKc/Yotd8umd3c4/s320/IMG_5197.JPG
 ---
 
 Yesterday I toured Green Point Stadium with a few other people. It was a remarkable afternoon to say the least. Even with a completely empty stadium, I still felt a rush of excitement imagining being there with a jam packed stadium cheering my lungs out! The elegant flow of the stadium along with the fresh pitch combined for an atmosphere unlike any other. Just look at the pictures and I am going to describe them as I go...

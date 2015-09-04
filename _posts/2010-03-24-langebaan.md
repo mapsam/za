@@ -1,6 +1,7 @@
 ---
 title: Gary The Vance at Langebaan Lagoon
 layout: post
+img: http://4.bp.blogspot.com/_LdRmP430Hc0/S6ogk2QcvnI/AAAAAAAAALM/ZAdSqWTwNlw/s680/IMG_5311.JPG
 ---
 
 Back from camp! Hi folks, get ready for a long one. 

@@ -1,4 +1,5 @@
 <nav>
+  <a id="home" href="http://mapsam.com/za"><i class="fa fa-home"></i></a>
   <div id="nav"></div>
 </nav>
 
@@ -9,8 +10,8 @@
 window.posts = [
   {% for post in site.posts reversed %}
   {
-    title: "{{ post.title }}",
-    date: "{{ post.date }}",
+    title: "{{ post.title }}",{% if post.url == page.url %}active: true,{% endif %}
+    date: "{{ post.date | date: '%B %d, %Y' }}",
     url: "{{ post.url }}"
   },
   {% endfor %}

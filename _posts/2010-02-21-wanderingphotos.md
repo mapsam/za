@@ -1,6 +1,7 @@
 ---
 title: Wandering the city, having fun
 layout: post
+img: http://2.bp.blogspot.com/_LdRmP430Hc0/S4GNU7NjByI/AAAAAAAAAIs/nWwOA9Wdxp0/s680/IMG_4841.JPG
 ---
 
 The amphitheater at Kirstenbosch Gardens. The alpine valley of South Africa
