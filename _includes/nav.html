@@ -12,7 +12,7 @@ window.posts = [
   {
     title: "{{ post.title }}",{% if post.url == page.url %}active: true,{% endif %}
     date: "{{ post.date | date: '%B %d, %Y' }}",
-    url: "{{ post.url }}"
+    url: "{{ site.baseurl }}{{ post.url }}"
   },
   {% endfor %}
 ];
