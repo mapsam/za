@@ -17,6 +17,9 @@ p {
   font-family: 'Noto Serif', serif;
   margin-bottom: 1.8em;
 }
+p a {
+  color: #fff;
+}
 
 @media (min-width: 50em) {}
 
@@ -88,7 +91,7 @@ section {
 }
 header {
   background-color: #1b1b1b;
-  padding: 4em 0 3em;
+  padding: 5em 0 3em;
 }
 article {
   float: left;
