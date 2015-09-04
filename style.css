@@ -134,7 +134,7 @@ article {
 .index_post:hover {
   background: #111;
 }
-.index_post:hover .index_post_left {
+.index_post:hover .index_post_img {
   opacity: 1;
 }
 
